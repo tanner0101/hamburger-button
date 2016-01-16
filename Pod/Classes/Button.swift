@@ -182,7 +182,7 @@ public class Button: UIButton {
         self.lineWidth = lineWidth
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         self.size = Button.size
         self.lineWidth = Button.lineWidth
         
